@@ -9,10 +9,10 @@
 7 warn package.json create-error-class@3.0.2 keywords should be an array of strings
 8 warn package.json is-retry-allowed@1.2.0 keywords should be an array of strings
 9 verbose readDependencies using package.json deps
-10 verbose already installed skipping ejs@^2.5.7 /home/vagrant/data/movie-analyst-ui
-11 verbose already installed skipping express@^4.15.4 /home/vagrant/data/movie-analyst-ui
-12 verbose already installed skipping package.json@^2.0.1 /home/vagrant/data/movie-analyst-ui
-13 verbose already installed skipping superagent@^3.6.0 /home/vagrant/data/movie-analyst-ui
+10 verbose already installed skipping superagent@^3.6.0 /home/vagrant/data/movie-analyst-ui
+11 verbose already installed skipping ejs@^2.5.7 /home/vagrant/data/movie-analyst-ui
+12 verbose already installed skipping express@^4.15.4 /home/vagrant/data/movie-analyst-ui
+13 verbose already installed skipping package.json@^2.0.1 /home/vagrant/data/movie-analyst-ui
 14 silly resolved []
 15 info build /home/vagrant/data/movie-analyst-ui
 16 verbose linkStuff [ false, false, false, '/home/vagrant/data' ]

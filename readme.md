@@ -38,3 +38,13 @@ Set the image you want to display in config.vm.box
 Once you choose the image and configure all the features of the instance you are creating locally, you can use the command vagrant up, to launch what is set in the vagrantfile.
 
 Provision with the script.sh that contains this repository, each of the created instances. This configuration is necessary to prepare the machine to support the execution of the development.
+
+4. VAGRANTFILE
+
+Please install vagrant disk size before run vagrant up. This is to resize the 
+normally disk size prestablished on the Vagrant box, trusty used.
+
+The command is the bellow: vagrant plugin install vagrant-disksize
+
+Then you can find in the vagrant file the configuration for the disk size. 
+something like this: config.disksize.size = '5GB'
