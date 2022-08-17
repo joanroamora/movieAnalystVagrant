@@ -48,3 +48,24 @@ The command is the bellow: vagrant plugin install vagrant-disksize
 
 Then you can find in the vagrant file the configuration for the disk size. 
 something like this: config.disksize.size = '5GB'
+
+5. RUN AND DEPLOY DE VM´S
+
+You will not need to start the process with vagrant init, since the vagrant file has been provisioned in this repository. We recommend that you start with a vagrant up. If you only want to start the UI VM, or the API VM, simply type one of the following commands as appropriate:
+
+vagrant up ui
+vagrant up api
+
+Immediately the vagrant software will contact your virtual machine manager, and start creating an instance with the configuration and order that has been set in the vagrantfile. The emulated hardware configuration as well as all the operating system features will be set in this file, which will facilitate the creation of the machines.
+
+6. DEPLOY DE APP
+
+When the machines have finished booting and are in the running state, please login to each of the machines if you wish to manually deploy each of the servers. Both the back and front end can be run manually through: 
+
+nodejs server.js
+
+However if you wish, you can also add this line of code at the end of each of the scripts, just do that if you want even the server deployment to be automated.
+
+7. TEST DE APP
+
+Determine the IP address of the BACK_HOST and through port 3030 point it to the frontend. Navigate through the application and then connect to one of the hyperlinks that will take you to the backend. 
