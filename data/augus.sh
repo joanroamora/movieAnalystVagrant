@@ -1,21 +1,29 @@
 #!/bin/bash
-echo "Iniciamos con el proceso de instalación de software."
-echo "Actualización y Actualización"
+echo "Setting the Environment Variables ***********************************************************************"
+#export BACK_HOST="127.0.0.1"
+#export DB_HOST="moviedb-rds.c5wjzkwslaaz.sa-east-1.rds.amazonaws.com"
+#export DB_USER="applicationuser"
+#export DB_PASS="Colombia2021*"
+#export DB_NAME="movie_db"
+#echo $BACK_HOST $DB_HOST $DB_NAME $DB_PASS $DB_USER
 
+echo "Updating and Upgrading your System **********************************************************************"
 sudo apt-get update -y
 sudo apt upgrade -y
 
-sudo apt install -y nodejs
+echo "Software Installation in progress ***********************************************************************"
+sudo apt install -y node
 sudo apt install -y npm
-sudo npm install -y express
-cd ..
-cd ..
-cd vagrant
-cd movie-analyst-api
-npm config set strict-ssl false
-npm install package.json
-nodejs server.js
-cd ..
-cd movie-analyst-ui
-npm install package.json
-nodejs server.js
+
+echo "Cloning repositories and directory optimization *********************************************************"
+cd /home/vagrant/data/movie-analyst-ui
+sudo npm install 
+mkdir "LLEGAMOS"
+#node server.js
+echo pwd
+
+
+#echo "cd home/vagrant/data/movie-analyst-ui XXXXXXXXXXXXXXXXXX"
+#sudo npm install 
+#echo "npm install XXXXXXXXXXXXXXXXXX"
+#node server.js

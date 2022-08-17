@@ -1,0 +1,1032 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/home/vagrant/data/movie-analyst-ui',
+5 verbose install   [ 'ejs', 'express', 'package.json', 'superagent' ] ]
+6 info preinstall movie-analyst-ui@1.0.0
+7 warn package.json create-error-class@3.0.2 keywords should be an array of strings
+8 warn package.json is-retry-allowed@1.2.0 keywords should be an array of strings
+9 verbose readDependencies using package.json deps
+10 verbose already installed skipping superagent@^3.6.0 /home/vagrant/data/movie-analyst-ui
+11 verbose already installed skipping ejs@^2.5.7 /home/vagrant/data/movie-analyst-ui
+12 verbose already installed skipping express@^4.15.4 /home/vagrant/data/movie-analyst-ui
+13 verbose already installed skipping package.json@^2.0.1 /home/vagrant/data/movie-analyst-ui
+14 silly resolved []
+15 info build /home/vagrant/data/movie-analyst-ui
+16 verbose linkStuff [ false, false, false, '/home/vagrant/data' ]
+17 info linkStuff movie-analyst-ui@1.0.0
+18 verbose linkBins movie-analyst-ui@1.0.0
+19 verbose linkMans movie-analyst-ui@1.0.0
+20 verbose rebuildBundles movie-analyst-ui@1.0.0
+21 verbose rebuildBundles [ '.bin',
+21 verbose rebuildBundles   '.package-lock.json',
+21 verbose rebuildBundles   'abs',
+21 verbose rebuildBundles   'accepts',
+21 verbose rebuildBundles   'array-flatten',
+21 verbose rebuildBundles   'asynckit',
+21 verbose rebuildBundles   'body-parser',
+21 verbose rebuildBundles   'bytes',
+21 verbose rebuildBundles   'capture-stack-trace',
+21 verbose rebuildBundles   'combined-stream',
+21 verbose rebuildBundles   'component-emitter',
+21 verbose rebuildBundles   'content-disposition',
+21 verbose rebuildBundles   'content-type',
+21 verbose rebuildBundles   'cookie',
+21 verbose rebuildBundles   'cookie-signature',
+21 verbose rebuildBundles   'cookiejar',
+21 verbose rebuildBundles   'core-util-is',
+21 verbose rebuildBundles   'create-error-class',
+21 verbose rebuildBundles   'debug',
+21 verbose rebuildBundles   'deep-extend',
+21 verbose rebuildBundles   'deffy',
+21 verbose rebuildBundles   'delayed-stream',
+21 verbose rebuildBundles   'depd',
+21 verbose rebuildBundles   'destroy',
+21 verbose rebuildBundles   'duplexer2',
+21 verbose rebuildBundles   'ee-first',
+21 verbose rebuildBundles   'ejs',
+21 verbose rebuildBundles   'encodeurl',
+21 verbose rebuildBundles   'err',
+21 verbose rebuildBundles   'error-ex',
+21 verbose rebuildBundles   'escape-html',
+21 verbose rebuildBundles   'etag',
+21 verbose rebuildBundles   'exec-limiter',
+21 verbose rebuildBundles   'express',
+21 verbose rebuildBundles   'extend',
+21 verbose rebuildBundles   'finalhandler',
+21 verbose rebuildBundles   'form-data',
+21 verbose rebuildBundles   'formidable',
+21 verbose rebuildBundles   'forwarded',
+21 verbose rebuildBundles   'fresh',
+21 verbose rebuildBundles   'function-bind',
+21 verbose rebuildBundles   'function.name',
+21 verbose rebuildBundles   'git-package-json',
+21 verbose rebuildBundles   'git-source',
+21 verbose rebuildBundles   'git-up',
+21 verbose rebuildBundles   'git-url-parse',
+21 verbose rebuildBundles   'got',
+21 verbose rebuildBundles   'gry',
+21 verbose rebuildBundles   'has',
+21 verbose rebuildBundles   'hosted-git-info',
+21 verbose rebuildBundles   'http-errors',
+21 verbose rebuildBundles   'iconv-lite',
+21 verbose rebuildBundles   'inherits',
+21 verbose rebuildBundles   'ini',
+21 verbose rebuildBundles   'ipaddr.js',
+21 verbose rebuildBundles   'is-arrayish',
+21 verbose rebuildBundles   'is-core-module',
+21 verbose rebuildBundles   'is-plain-obj',
+21 verbose rebuildBundles   'is-redirect',
+21 verbose rebuildBundles   'is-retry-allowed',
+21 verbose rebuildBundles   'is-ssh',
+21 verbose rebuildBundles   'is-stream',
+21 verbose rebuildBundles   'isarray',
+21 verbose rebuildBundles   'iterate-object',
+21 verbose rebuildBundles   'limit-it',
+21 verbose rebuildBundles   'lowercase-keys',
+21 verbose rebuildBundles   'media-typer',
+21 verbose rebuildBundles   'merge-descriptors',
+21 verbose rebuildBundles   'methods',
+21 verbose rebuildBundles   'mime',
+21 verbose rebuildBundles   'mime-db',
+21 verbose rebuildBundles   'mime-types',
+21 verbose rebuildBundles   'minimist',
+21 verbose rebuildBundles   'ms',
+21 verbose rebuildBundles   'negotiator',
+21 verbose rebuildBundles   'node-status-codes',
+21 verbose rebuildBundles   'noop6',
+21 verbose rebuildBundles   'normalize-package-data',
+21 verbose rebuildBundles   'oargv',
+21 verbose rebuildBundles   'obj-def',
+21 verbose rebuildBundles   'object-assign',
+21 verbose rebuildBundles   'on-finished',
+21 verbose rebuildBundles   'one-by-one',
+21 verbose rebuildBundles   'os-tmpdir',
+21 verbose rebuildBundles   'package-json',
+21 verbose rebuildBundles   'package-json-path',
+21 verbose rebuildBundles   'package.json',
+21 verbose rebuildBundles   'parse-json',
+21 verbose rebuildBundles   'parse-url',
+21 verbose rebuildBundles   'parseurl',
+21 verbose rebuildBundles   'path-parse',
+21 verbose rebuildBundles   'path-to-regexp',
+21 verbose rebuildBundles   'pinkie',
+21 verbose rebuildBundles   'pinkie-promise',
+21 verbose rebuildBundles   'prepend-http',
+21 verbose rebuildBundles   'process-nextick-args',
+21 verbose rebuildBundles   'protocols',
+21 verbose rebuildBundles   'proxy-addr',
+21 verbose rebuildBundles   'qs',
+21 verbose rebuildBundles   'r-json',
+21 verbose rebuildBundles   'r-package-json',
+21 verbose rebuildBundles   'range-parser',
+21 verbose rebuildBundles   'raw-body',
+21 verbose rebuildBundles   'rc',
+21 verbose rebuildBundles   'read-all-stream',
+21 verbose rebuildBundles   'readable-stream',
+21 verbose rebuildBundles   'registry-auth-token',
+21 verbose rebuildBundles   'registry-url',
+21 verbose rebuildBundles   'resolve',
+21 verbose rebuildBundles   'safe-buffer',
+21 verbose rebuildBundles   'safer-buffer',
+21 verbose rebuildBundles   'semver',
+21 verbose rebuildBundles   'send',
+21 verbose rebuildBundles   'serve-static',
+21 verbose rebuildBundles   'setprototypeof',
+21 verbose rebuildBundles   'sliced',
+21 verbose rebuildBundles   'spdx-correct',
+21 verbose rebuildBundles   'spdx-exceptions',
+21 verbose rebuildBundles   'spdx-expression-parse',
+21 verbose rebuildBundles   'spdx-license-ids',
+21 verbose rebuildBundles   'statuses',
+21 verbose rebuildBundles   'string_decoder',
+21 verbose rebuildBundles   'strip-json-comments',
+21 verbose rebuildBundles   'superagent',
+21 verbose rebuildBundles   'timed-out',
+21 verbose rebuildBundles   'tmp',
+21 verbose rebuildBundles   'toidentifier',
+21 verbose rebuildBundles   'type-is',
+21 verbose rebuildBundles   'typpy',
+21 verbose rebuildBundles   'ul',
+21 verbose rebuildBundles   'unpipe',
+21 verbose rebuildBundles   'unzip-response',
+21 verbose rebuildBundles   'url-parse-lax',
+21 verbose rebuildBundles   'util-deprecate',
+21 verbose rebuildBundles   'utils-merge',
+21 verbose rebuildBundles   'validate-npm-package-license',
+21 verbose rebuildBundles   'vary' ]
+22 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/abs
+23 info build /home/vagrant/data/movie-analyst-ui/node_modules/abs
+24 info preinstall abs@1.3.14
+25 verbose linkStuff [ false,
+25 verbose linkStuff   false,
+25 verbose linkStuff   false,
+25 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+26 info linkStuff abs@1.3.14
+27 verbose linkBins abs@1.3.14
+28 verbose linkMans abs@1.3.14
+29 verbose rebuildBundles abs@1.3.14
+30 info install abs@1.3.14
+31 info postinstall abs@1.3.14
+32 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/accepts
+33 info build /home/vagrant/data/movie-analyst-ui/node_modules/accepts
+34 info preinstall accepts@1.3.7
+35 verbose linkStuff [ false,
+35 verbose linkStuff   false,
+35 verbose linkStuff   false,
+35 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+36 info linkStuff accepts@1.3.7
+37 verbose linkBins accepts@1.3.7
+38 verbose linkMans accepts@1.3.7
+39 verbose rebuildBundles accepts@1.3.7
+40 info install accepts@1.3.7
+41 info postinstall accepts@1.3.7
+42 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/array-flatten
+43 info build /home/vagrant/data/movie-analyst-ui/node_modules/array-flatten
+44 info preinstall array-flatten@1.1.1
+45 verbose linkStuff [ false,
+45 verbose linkStuff   false,
+45 verbose linkStuff   false,
+45 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+46 info linkStuff array-flatten@1.1.1
+47 verbose linkBins array-flatten@1.1.1
+48 verbose linkMans array-flatten@1.1.1
+49 verbose rebuildBundles array-flatten@1.1.1
+50 info install array-flatten@1.1.1
+51 info postinstall array-flatten@1.1.1
+52 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/asynckit
+53 info build /home/vagrant/data/movie-analyst-ui/node_modules/asynckit
+54 info preinstall asynckit@0.4.0
+55 verbose linkStuff [ false,
+55 verbose linkStuff   false,
+55 verbose linkStuff   false,
+55 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+56 info linkStuff asynckit@0.4.0
+57 verbose linkBins asynckit@0.4.0
+58 verbose linkMans asynckit@0.4.0
+59 verbose rebuildBundles asynckit@0.4.0
+60 info install asynckit@0.4.0
+61 info postinstall asynckit@0.4.0
+62 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/body-parser
+63 info build /home/vagrant/data/movie-analyst-ui/node_modules/body-parser
+64 info preinstall body-parser@1.19.0
+65 verbose linkStuff [ false,
+65 verbose linkStuff   false,
+65 verbose linkStuff   false,
+65 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+66 info linkStuff body-parser@1.19.0
+67 verbose linkBins body-parser@1.19.0
+68 verbose linkMans body-parser@1.19.0
+69 verbose rebuildBundles body-parser@1.19.0
+70 info install body-parser@1.19.0
+71 info postinstall body-parser@1.19.0
+72 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/bytes
+73 info build /home/vagrant/data/movie-analyst-ui/node_modules/bytes
+74 info preinstall bytes@3.1.0
+75 verbose linkStuff [ false,
+75 verbose linkStuff   false,
+75 verbose linkStuff   false,
+75 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+76 info linkStuff bytes@3.1.0
+77 verbose linkBins bytes@3.1.0
+78 verbose linkMans bytes@3.1.0
+79 verbose rebuildBundles bytes@3.1.0
+80 info install bytes@3.1.0
+81 info postinstall bytes@3.1.0
+82 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/capture-stack-trace
+83 info build /home/vagrant/data/movie-analyst-ui/node_modules/capture-stack-trace
+84 info preinstall capture-stack-trace@1.0.1
+85 verbose linkStuff [ false,
+85 verbose linkStuff   false,
+85 verbose linkStuff   false,
+85 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+86 info linkStuff capture-stack-trace@1.0.1
+87 verbose linkBins capture-stack-trace@1.0.1
+88 verbose linkMans capture-stack-trace@1.0.1
+89 verbose rebuildBundles capture-stack-trace@1.0.1
+90 info install capture-stack-trace@1.0.1
+91 info postinstall capture-stack-trace@1.0.1
+92 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/combined-stream
+93 info build /home/vagrant/data/movie-analyst-ui/node_modules/combined-stream
+94 info preinstall combined-stream@1.0.8
+95 verbose linkStuff [ false,
+95 verbose linkStuff   false,
+95 verbose linkStuff   false,
+95 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+96 info linkStuff combined-stream@1.0.8
+97 verbose linkBins combined-stream@1.0.8
+98 verbose linkMans combined-stream@1.0.8
+99 verbose rebuildBundles combined-stream@1.0.8
+100 info install combined-stream@1.0.8
+101 info postinstall combined-stream@1.0.8
+102 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/component-emitter
+103 info build /home/vagrant/data/movie-analyst-ui/node_modules/component-emitter
+104 info preinstall component-emitter@1.3.0
+105 verbose linkStuff [ false,
+105 verbose linkStuff   false,
+105 verbose linkStuff   false,
+105 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+106 info linkStuff component-emitter@1.3.0
+107 verbose linkBins component-emitter@1.3.0
+108 verbose linkMans component-emitter@1.3.0
+109 verbose rebuildBundles component-emitter@1.3.0
+110 info install component-emitter@1.3.0
+111 info postinstall component-emitter@1.3.0
+112 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/content-disposition
+113 info build /home/vagrant/data/movie-analyst-ui/node_modules/content-disposition
+114 info preinstall content-disposition@0.5.3
+115 verbose linkStuff [ false,
+115 verbose linkStuff   false,
+115 verbose linkStuff   false,
+115 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+116 info linkStuff content-disposition@0.5.3
+117 verbose linkBins content-disposition@0.5.3
+118 verbose linkMans content-disposition@0.5.3
+119 verbose rebuildBundles content-disposition@0.5.3
+120 info install content-disposition@0.5.3
+121 info postinstall content-disposition@0.5.3
+122 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/content-type
+123 info build /home/vagrant/data/movie-analyst-ui/node_modules/content-type
+124 info preinstall content-type@1.0.4
+125 verbose linkStuff [ false,
+125 verbose linkStuff   false,
+125 verbose linkStuff   false,
+125 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+126 info linkStuff content-type@1.0.4
+127 verbose linkBins content-type@1.0.4
+128 verbose linkMans content-type@1.0.4
+129 verbose rebuildBundles content-type@1.0.4
+130 info install content-type@1.0.4
+131 info postinstall content-type@1.0.4
+132 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/cookie
+133 info build /home/vagrant/data/movie-analyst-ui/node_modules/cookie
+134 info preinstall cookie@0.4.0
+135 verbose linkStuff [ false,
+135 verbose linkStuff   false,
+135 verbose linkStuff   false,
+135 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+136 info linkStuff cookie@0.4.0
+137 verbose linkBins cookie@0.4.0
+138 verbose linkMans cookie@0.4.0
+139 verbose rebuildBundles cookie@0.4.0
+140 info install cookie@0.4.0
+141 info postinstall cookie@0.4.0
+142 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/cookie-signature
+143 info build /home/vagrant/data/movie-analyst-ui/node_modules/cookie-signature
+144 info preinstall cookie-signature@1.0.6
+145 verbose linkStuff [ false,
+145 verbose linkStuff   false,
+145 verbose linkStuff   false,
+145 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+146 info linkStuff cookie-signature@1.0.6
+147 verbose linkBins cookie-signature@1.0.6
+148 verbose linkMans cookie-signature@1.0.6
+149 verbose rebuildBundles cookie-signature@1.0.6
+150 info install cookie-signature@1.0.6
+151 info postinstall cookie-signature@1.0.6
+152 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/cookiejar
+153 info build /home/vagrant/data/movie-analyst-ui/node_modules/cookiejar
+154 info preinstall cookiejar@2.1.3
+155 verbose linkStuff [ false,
+155 verbose linkStuff   false,
+155 verbose linkStuff   false,
+155 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+156 info linkStuff cookiejar@2.1.3
+157 verbose linkBins cookiejar@2.1.3
+158 verbose linkMans cookiejar@2.1.3
+159 verbose rebuildBundles cookiejar@2.1.3
+160 info install cookiejar@2.1.3
+161 info postinstall cookiejar@2.1.3
+162 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/core-util-is
+163 info build /home/vagrant/data/movie-analyst-ui/node_modules/core-util-is
+164 info preinstall core-util-is@1.0.3
+165 verbose linkStuff [ false,
+165 verbose linkStuff   false,
+165 verbose linkStuff   false,
+165 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+166 info linkStuff core-util-is@1.0.3
+167 verbose linkBins core-util-is@1.0.3
+168 verbose linkMans core-util-is@1.0.3
+169 verbose rebuildBundles core-util-is@1.0.3
+170 info install core-util-is@1.0.3
+171 info postinstall core-util-is@1.0.3
+172 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/create-error-class
+173 info build /home/vagrant/data/movie-analyst-ui/node_modules/create-error-class
+174 info preinstall create-error-class@3.0.2
+175 verbose linkStuff [ false,
+175 verbose linkStuff   false,
+175 verbose linkStuff   false,
+175 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+176 info linkStuff create-error-class@3.0.2
+177 verbose linkBins create-error-class@3.0.2
+178 verbose linkMans create-error-class@3.0.2
+179 verbose rebuildBundles create-error-class@3.0.2
+180 info install create-error-class@3.0.2
+181 info postinstall create-error-class@3.0.2
+182 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/debug
+183 info build /home/vagrant/data/movie-analyst-ui/node_modules/debug
+184 info preinstall debug@2.6.9
+185 verbose linkStuff [ false,
+185 verbose linkStuff   false,
+185 verbose linkStuff   false,
+185 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+186 info linkStuff debug@2.6.9
+187 verbose linkBins debug@2.6.9
+188 verbose linkMans debug@2.6.9
+189 verbose rebuildBundles debug@2.6.9
+190 info install debug@2.6.9
+191 info postinstall debug@2.6.9
+192 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/deep-extend
+193 info build /home/vagrant/data/movie-analyst-ui/node_modules/deep-extend
+194 info preinstall deep-extend@0.6.0
+195 verbose linkStuff [ false,
+195 verbose linkStuff   false,
+195 verbose linkStuff   false,
+195 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+196 info linkStuff deep-extend@0.6.0
+197 verbose linkBins deep-extend@0.6.0
+198 verbose linkMans deep-extend@0.6.0
+199 verbose rebuildBundles deep-extend@0.6.0
+200 info install deep-extend@0.6.0
+201 info postinstall deep-extend@0.6.0
+202 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/deffy
+203 info build /home/vagrant/data/movie-analyst-ui/node_modules/deffy
+204 info preinstall deffy@2.2.4
+205 verbose linkStuff [ false,
+205 verbose linkStuff   false,
+205 verbose linkStuff   false,
+205 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+206 info linkStuff deffy@2.2.4
+207 verbose linkBins deffy@2.2.4
+208 verbose linkMans deffy@2.2.4
+209 verbose rebuildBundles deffy@2.2.4
+210 info install deffy@2.2.4
+211 info postinstall deffy@2.2.4
+212 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/delayed-stream
+213 info build /home/vagrant/data/movie-analyst-ui/node_modules/delayed-stream
+214 info preinstall delayed-stream@1.0.0
+215 verbose linkStuff [ false,
+215 verbose linkStuff   false,
+215 verbose linkStuff   false,
+215 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+216 info linkStuff delayed-stream@1.0.0
+217 verbose linkBins delayed-stream@1.0.0
+218 verbose linkMans delayed-stream@1.0.0
+219 verbose rebuildBundles delayed-stream@1.0.0
+220 info install delayed-stream@1.0.0
+221 info postinstall delayed-stream@1.0.0
+222 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/depd
+223 info build /home/vagrant/data/movie-analyst-ui/node_modules/depd
+224 info preinstall depd@1.1.2
+225 verbose linkStuff [ false,
+225 verbose linkStuff   false,
+225 verbose linkStuff   false,
+225 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+226 info linkStuff depd@1.1.2
+227 verbose linkBins depd@1.1.2
+228 verbose linkMans depd@1.1.2
+229 verbose rebuildBundles depd@1.1.2
+230 info install depd@1.1.2
+231 info postinstall depd@1.1.2
+232 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/destroy
+233 info build /home/vagrant/data/movie-analyst-ui/node_modules/destroy
+234 info preinstall destroy@1.0.4
+235 verbose linkStuff [ false,
+235 verbose linkStuff   false,
+235 verbose linkStuff   false,
+235 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+236 info linkStuff destroy@1.0.4
+237 verbose linkBins destroy@1.0.4
+238 verbose linkMans destroy@1.0.4
+239 verbose rebuildBundles destroy@1.0.4
+240 info install destroy@1.0.4
+241 info postinstall destroy@1.0.4
+242 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/duplexer2
+243 info build /home/vagrant/data/movie-analyst-ui/node_modules/duplexer2
+244 info preinstall duplexer2@0.1.4
+245 verbose linkStuff [ false,
+245 verbose linkStuff   false,
+245 verbose linkStuff   false,
+245 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+246 info linkStuff duplexer2@0.1.4
+247 verbose linkBins duplexer2@0.1.4
+248 verbose linkMans duplexer2@0.1.4
+249 verbose rebuildBundles duplexer2@0.1.4
+250 info install duplexer2@0.1.4
+251 info postinstall duplexer2@0.1.4
+252 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/ee-first
+253 info build /home/vagrant/data/movie-analyst-ui/node_modules/ee-first
+254 info preinstall ee-first@1.1.1
+255 verbose linkStuff [ false,
+255 verbose linkStuff   false,
+255 verbose linkStuff   false,
+255 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+256 info linkStuff ee-first@1.1.1
+257 verbose linkBins ee-first@1.1.1
+258 verbose linkMans ee-first@1.1.1
+259 verbose rebuildBundles ee-first@1.1.1
+260 info install ee-first@1.1.1
+261 info postinstall ee-first@1.1.1
+262 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/encodeurl
+263 info build /home/vagrant/data/movie-analyst-ui/node_modules/encodeurl
+264 info preinstall encodeurl@1.0.2
+265 verbose linkStuff [ false,
+265 verbose linkStuff   false,
+265 verbose linkStuff   false,
+265 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+266 info linkStuff encodeurl@1.0.2
+267 verbose linkBins encodeurl@1.0.2
+268 verbose linkMans encodeurl@1.0.2
+269 verbose rebuildBundles encodeurl@1.0.2
+270 info install encodeurl@1.0.2
+271 info postinstall encodeurl@1.0.2
+272 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/err
+273 info build /home/vagrant/data/movie-analyst-ui/node_modules/err
+274 info preinstall err@1.1.1
+275 verbose linkStuff [ false,
+275 verbose linkStuff   false,
+275 verbose linkStuff   false,
+275 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+276 info linkStuff err@1.1.1
+277 verbose linkBins err@1.1.1
+278 verbose linkMans err@1.1.1
+279 verbose rebuildBundles err@1.1.1
+280 info install err@1.1.1
+281 info postinstall err@1.1.1
+282 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/error-ex
+283 info build /home/vagrant/data/movie-analyst-ui/node_modules/error-ex
+284 info preinstall error-ex@1.3.2
+285 verbose linkStuff [ false,
+285 verbose linkStuff   false,
+285 verbose linkStuff   false,
+285 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+286 info linkStuff error-ex@1.3.2
+287 verbose linkBins error-ex@1.3.2
+288 verbose linkMans error-ex@1.3.2
+289 verbose rebuildBundles error-ex@1.3.2
+290 info install error-ex@1.3.2
+291 info postinstall error-ex@1.3.2
+292 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/escape-html
+293 info build /home/vagrant/data/movie-analyst-ui/node_modules/escape-html
+294 info preinstall escape-html@1.0.3
+295 verbose linkStuff [ false,
+295 verbose linkStuff   false,
+295 verbose linkStuff   false,
+295 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+296 info linkStuff escape-html@1.0.3
+297 verbose linkBins escape-html@1.0.3
+298 verbose linkMans escape-html@1.0.3
+299 verbose rebuildBundles escape-html@1.0.3
+300 info install escape-html@1.0.3
+301 info postinstall escape-html@1.0.3
+302 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/etag
+303 info build /home/vagrant/data/movie-analyst-ui/node_modules/etag
+304 info preinstall etag@1.8.1
+305 verbose linkStuff [ false,
+305 verbose linkStuff   false,
+305 verbose linkStuff   false,
+305 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+306 info linkStuff etag@1.8.1
+307 verbose linkBins etag@1.8.1
+308 verbose linkMans etag@1.8.1
+309 verbose rebuildBundles etag@1.8.1
+310 info install etag@1.8.1
+311 info postinstall etag@1.8.1
+312 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/exec-limiter
+313 info build /home/vagrant/data/movie-analyst-ui/node_modules/exec-limiter
+314 info preinstall exec-limiter@3.2.13
+315 verbose linkStuff [ false,
+315 verbose linkStuff   false,
+315 verbose linkStuff   false,
+315 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+316 info linkStuff exec-limiter@3.2.13
+317 verbose linkBins exec-limiter@3.2.13
+318 verbose linkMans exec-limiter@3.2.13
+319 verbose rebuildBundles exec-limiter@3.2.13
+320 info install exec-limiter@3.2.13
+321 info postinstall exec-limiter@3.2.13
+322 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/extend
+323 info build /home/vagrant/data/movie-analyst-ui/node_modules/extend
+324 info preinstall extend@3.0.2
+325 verbose linkStuff [ false,
+325 verbose linkStuff   false,
+325 verbose linkStuff   false,
+325 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+326 info linkStuff extend@3.0.2
+327 verbose linkBins extend@3.0.2
+328 verbose linkMans extend@3.0.2
+329 verbose rebuildBundles extend@3.0.2
+330 info install extend@3.0.2
+331 info postinstall extend@3.0.2
+332 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/finalhandler
+333 info build /home/vagrant/data/movie-analyst-ui/node_modules/finalhandler
+334 info preinstall finalhandler@1.1.2
+335 verbose linkStuff [ false,
+335 verbose linkStuff   false,
+335 verbose linkStuff   false,
+335 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+336 info linkStuff finalhandler@1.1.2
+337 verbose linkBins finalhandler@1.1.2
+338 verbose linkMans finalhandler@1.1.2
+339 verbose rebuildBundles finalhandler@1.1.2
+340 info install finalhandler@1.1.2
+341 info postinstall finalhandler@1.1.2
+342 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/form-data
+343 info build /home/vagrant/data/movie-analyst-ui/node_modules/form-data
+344 info preinstall form-data@2.5.1
+345 verbose linkStuff [ false,
+345 verbose linkStuff   false,
+345 verbose linkStuff   false,
+345 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+346 info linkStuff form-data@2.5.1
+347 verbose linkBins form-data@2.5.1
+348 verbose linkMans form-data@2.5.1
+349 verbose rebuildBundles form-data@2.5.1
+350 info install form-data@2.5.1
+351 info postinstall form-data@2.5.1
+352 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/formidable
+353 info build /home/vagrant/data/movie-analyst-ui/node_modules/formidable
+354 info preinstall formidable@1.2.6
+355 verbose linkStuff [ false,
+355 verbose linkStuff   false,
+355 verbose linkStuff   false,
+355 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+356 info linkStuff formidable@1.2.6
+357 verbose linkBins formidable@1.2.6
+358 verbose linkMans formidable@1.2.6
+359 verbose rebuildBundles formidable@1.2.6
+360 info install formidable@1.2.6
+361 info postinstall formidable@1.2.6
+362 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/forwarded
+363 info build /home/vagrant/data/movie-analyst-ui/node_modules/forwarded
+364 info preinstall forwarded@0.2.0
+365 verbose linkStuff [ false,
+365 verbose linkStuff   false,
+365 verbose linkStuff   false,
+365 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+366 info linkStuff forwarded@0.2.0
+367 verbose linkBins forwarded@0.2.0
+368 verbose linkMans forwarded@0.2.0
+369 verbose rebuildBundles forwarded@0.2.0
+370 info install forwarded@0.2.0
+371 info postinstall forwarded@0.2.0
+372 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/fresh
+373 info build /home/vagrant/data/movie-analyst-ui/node_modules/fresh
+374 info preinstall fresh@0.5.2
+375 verbose linkStuff [ false,
+375 verbose linkStuff   false,
+375 verbose linkStuff   false,
+375 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+376 info linkStuff fresh@0.5.2
+377 verbose linkBins fresh@0.5.2
+378 verbose linkMans fresh@0.5.2
+379 verbose rebuildBundles fresh@0.5.2
+380 info install fresh@0.5.2
+381 info postinstall fresh@0.5.2
+382 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/function-bind
+383 info build /home/vagrant/data/movie-analyst-ui/node_modules/function-bind
+384 info preinstall function-bind@1.1.1
+385 verbose linkStuff [ false,
+385 verbose linkStuff   false,
+385 verbose linkStuff   false,
+385 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+386 info linkStuff function-bind@1.1.1
+387 verbose linkBins function-bind@1.1.1
+388 verbose linkMans function-bind@1.1.1
+389 verbose rebuildBundles function-bind@1.1.1
+390 info install function-bind@1.1.1
+391 info postinstall function-bind@1.1.1
+392 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/function.name
+393 info build /home/vagrant/data/movie-analyst-ui/node_modules/function.name
+394 info preinstall function.name@1.0.13
+395 verbose linkStuff [ false,
+395 verbose linkStuff   false,
+395 verbose linkStuff   false,
+395 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+396 info linkStuff function.name@1.0.13
+397 verbose linkBins function.name@1.0.13
+398 verbose linkMans function.name@1.0.13
+399 verbose rebuildBundles function.name@1.0.13
+400 info install function.name@1.0.13
+401 info postinstall function.name@1.0.13
+402 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/git-package-json
+403 info build /home/vagrant/data/movie-analyst-ui/node_modules/git-package-json
+404 info preinstall git-package-json@1.4.10
+405 verbose linkStuff [ false,
+405 verbose linkStuff   false,
+405 verbose linkStuff   false,
+405 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+406 info linkStuff git-package-json@1.4.10
+407 verbose linkBins git-package-json@1.4.10
+408 verbose linkMans git-package-json@1.4.10
+409 verbose rebuildBundles git-package-json@1.4.10
+410 info install git-package-json@1.4.10
+411 info postinstall git-package-json@1.4.10
+412 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/git-source
+413 info build /home/vagrant/data/movie-analyst-ui/node_modules/git-source
+414 info preinstall git-source@1.1.10
+415 verbose linkStuff [ false,
+415 verbose linkStuff   false,
+415 verbose linkStuff   false,
+415 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+416 info linkStuff git-source@1.1.10
+417 verbose linkBins git-source@1.1.10
+418 verbose linkMans git-source@1.1.10
+419 verbose rebuildBundles git-source@1.1.10
+420 info install git-source@1.1.10
+421 info postinstall git-source@1.1.10
+422 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/git-up
+423 info build /home/vagrant/data/movie-analyst-ui/node_modules/git-up
+424 info preinstall git-up@1.2.1
+425 verbose linkStuff [ false,
+425 verbose linkStuff   false,
+425 verbose linkStuff   false,
+425 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+426 info linkStuff git-up@1.2.1
+427 verbose linkBins git-up@1.2.1
+428 verbose linkMans git-up@1.2.1
+429 verbose rebuildBundles git-up@1.2.1
+430 info install git-up@1.2.1
+431 info postinstall git-up@1.2.1
+432 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/git-url-parse
+433 info build /home/vagrant/data/movie-analyst-ui/node_modules/git-url-parse
+434 info preinstall git-url-parse@5.0.1
+435 verbose linkStuff [ false,
+435 verbose linkStuff   false,
+435 verbose linkStuff   false,
+435 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+436 info linkStuff git-url-parse@5.0.1
+437 verbose linkBins git-url-parse@5.0.1
+438 verbose linkMans git-url-parse@5.0.1
+439 verbose rebuildBundles git-url-parse@5.0.1
+440 info install git-url-parse@5.0.1
+441 info postinstall git-url-parse@5.0.1
+442 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/got
+443 info build /home/vagrant/data/movie-analyst-ui/node_modules/got
+444 info preinstall got@5.6.0
+445 verbose linkStuff [ false,
+445 verbose linkStuff   false,
+445 verbose linkStuff   false,
+445 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+446 info linkStuff got@5.6.0
+447 verbose linkBins got@5.6.0
+448 verbose linkMans got@5.6.0
+449 verbose rebuildBundles got@5.6.0
+450 info install got@5.6.0
+451 info postinstall got@5.6.0
+452 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/gry
+453 info build /home/vagrant/data/movie-analyst-ui/node_modules/gry
+454 info preinstall gry@5.0.8
+455 verbose linkStuff [ false,
+455 verbose linkStuff   false,
+455 verbose linkStuff   false,
+455 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+456 info linkStuff gry@5.0.8
+457 verbose linkBins gry@5.0.8
+458 verbose linkMans gry@5.0.8
+459 verbose rebuildBundles gry@5.0.8
+460 info install gry@5.0.8
+461 info postinstall gry@5.0.8
+462 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/has
+463 info build /home/vagrant/data/movie-analyst-ui/node_modules/has
+464 info preinstall has@1.0.3
+465 verbose linkStuff [ false,
+465 verbose linkStuff   false,
+465 verbose linkStuff   false,
+465 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+466 info linkStuff has@1.0.3
+467 verbose linkBins has@1.0.3
+468 verbose linkMans has@1.0.3
+469 verbose rebuildBundles has@1.0.3
+470 info install has@1.0.3
+471 info postinstall has@1.0.3
+472 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/hosted-git-info
+473 info build /home/vagrant/data/movie-analyst-ui/node_modules/hosted-git-info
+474 info preinstall hosted-git-info@2.8.9
+475 verbose linkStuff [ false,
+475 verbose linkStuff   false,
+475 verbose linkStuff   false,
+475 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+476 info linkStuff hosted-git-info@2.8.9
+477 verbose linkBins hosted-git-info@2.8.9
+478 verbose linkMans hosted-git-info@2.8.9
+479 verbose rebuildBundles hosted-git-info@2.8.9
+480 info install hosted-git-info@2.8.9
+481 info postinstall hosted-git-info@2.8.9
+482 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/http-errors
+483 info build /home/vagrant/data/movie-analyst-ui/node_modules/http-errors
+484 info preinstall http-errors@1.7.2
+485 verbose linkStuff [ false,
+485 verbose linkStuff   false,
+485 verbose linkStuff   false,
+485 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+486 info linkStuff http-errors@1.7.2
+487 verbose linkBins http-errors@1.7.2
+488 verbose linkMans http-errors@1.7.2
+489 verbose rebuildBundles http-errors@1.7.2
+490 info install http-errors@1.7.2
+491 info postinstall http-errors@1.7.2
+492 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/iconv-lite
+493 info build /home/vagrant/data/movie-analyst-ui/node_modules/iconv-lite
+494 info preinstall iconv-lite@0.4.24
+495 verbose linkStuff [ false,
+495 verbose linkStuff   false,
+495 verbose linkStuff   false,
+495 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+496 info linkStuff iconv-lite@0.4.24
+497 verbose linkBins iconv-lite@0.4.24
+498 verbose linkMans iconv-lite@0.4.24
+499 verbose rebuildBundles iconv-lite@0.4.24
+500 info install iconv-lite@0.4.24
+501 info postinstall iconv-lite@0.4.24
+502 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/inherits
+503 info build /home/vagrant/data/movie-analyst-ui/node_modules/inherits
+504 info preinstall inherits@2.0.3
+505 verbose linkStuff [ false,
+505 verbose linkStuff   false,
+505 verbose linkStuff   false,
+505 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+506 info linkStuff inherits@2.0.3
+507 verbose linkBins inherits@2.0.3
+508 verbose linkMans inherits@2.0.3
+509 verbose rebuildBundles inherits@2.0.3
+510 info install inherits@2.0.3
+511 info postinstall inherits@2.0.3
+512 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/ini
+513 info build /home/vagrant/data/movie-analyst-ui/node_modules/ini
+514 info preinstall ini@1.3.8
+515 verbose linkStuff [ false,
+515 verbose linkStuff   false,
+515 verbose linkStuff   false,
+515 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+516 info linkStuff ini@1.3.8
+517 verbose linkBins ini@1.3.8
+518 verbose linkMans ini@1.3.8
+519 verbose rebuildBundles ini@1.3.8
+520 info install ini@1.3.8
+521 info postinstall ini@1.3.8
+522 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/ipaddr.js
+523 info build /home/vagrant/data/movie-analyst-ui/node_modules/ipaddr.js
+524 info preinstall ipaddr.js@1.9.1
+525 verbose linkStuff [ false,
+525 verbose linkStuff   false,
+525 verbose linkStuff   false,
+525 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+526 info linkStuff ipaddr.js@1.9.1
+527 verbose linkBins ipaddr.js@1.9.1
+528 verbose linkMans ipaddr.js@1.9.1
+529 verbose rebuildBundles ipaddr.js@1.9.1
+530 info install ipaddr.js@1.9.1
+531 info postinstall ipaddr.js@1.9.1
+532 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/is-arrayish
+533 info build /home/vagrant/data/movie-analyst-ui/node_modules/is-arrayish
+534 info preinstall is-arrayish@0.2.1
+535 verbose linkStuff [ false,
+535 verbose linkStuff   false,
+535 verbose linkStuff   false,
+535 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+536 info linkStuff is-arrayish@0.2.1
+537 verbose linkBins is-arrayish@0.2.1
+538 verbose linkMans is-arrayish@0.2.1
+539 verbose rebuildBundles is-arrayish@0.2.1
+540 info install is-arrayish@0.2.1
+541 info postinstall is-arrayish@0.2.1
+542 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/is-core-module
+543 info build /home/vagrant/data/movie-analyst-ui/node_modules/is-core-module
+544 info preinstall is-core-module@2.8.0
+545 verbose linkStuff [ false,
+545 verbose linkStuff   false,
+545 verbose linkStuff   false,
+545 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+546 info linkStuff is-core-module@2.8.0
+547 verbose linkBins is-core-module@2.8.0
+548 verbose linkMans is-core-module@2.8.0
+549 verbose rebuildBundles is-core-module@2.8.0
+550 info install is-core-module@2.8.0
+551 info postinstall is-core-module@2.8.0
+552 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/is-plain-obj
+553 info build /home/vagrant/data/movie-analyst-ui/node_modules/is-plain-obj
+554 info preinstall is-plain-obj@1.1.0
+555 verbose linkStuff [ false,
+555 verbose linkStuff   false,
+555 verbose linkStuff   false,
+555 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+556 info linkStuff is-plain-obj@1.1.0
+557 verbose linkBins is-plain-obj@1.1.0
+558 verbose linkMans is-plain-obj@1.1.0
+559 verbose rebuildBundles is-plain-obj@1.1.0
+560 info install is-plain-obj@1.1.0
+561 info postinstall is-plain-obj@1.1.0
+562 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/is-redirect
+563 info build /home/vagrant/data/movie-analyst-ui/node_modules/is-redirect
+564 info preinstall is-redirect@1.0.0
+565 verbose linkStuff [ false,
+565 verbose linkStuff   false,
+565 verbose linkStuff   false,
+565 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+566 info linkStuff is-redirect@1.0.0
+567 verbose linkBins is-redirect@1.0.0
+568 verbose linkMans is-redirect@1.0.0
+569 verbose rebuildBundles is-redirect@1.0.0
+570 info install is-redirect@1.0.0
+571 info postinstall is-redirect@1.0.0
+572 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/is-retry-allowed
+573 info build /home/vagrant/data/movie-analyst-ui/node_modules/is-retry-allowed
+574 info preinstall is-retry-allowed@1.2.0
+575 verbose linkStuff [ false,
+575 verbose linkStuff   false,
+575 verbose linkStuff   false,
+575 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+576 info linkStuff is-retry-allowed@1.2.0
+577 verbose linkBins is-retry-allowed@1.2.0
+578 verbose linkMans is-retry-allowed@1.2.0
+579 verbose rebuildBundles is-retry-allowed@1.2.0
+580 info install is-retry-allowed@1.2.0
+581 info postinstall is-retry-allowed@1.2.0
+582 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/is-ssh
+583 info build /home/vagrant/data/movie-analyst-ui/node_modules/is-ssh
+584 info preinstall is-ssh@1.3.3
+585 verbose linkStuff [ false,
+585 verbose linkStuff   false,
+585 verbose linkStuff   false,
+585 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+586 info linkStuff is-ssh@1.3.3
+587 verbose linkBins is-ssh@1.3.3
+588 verbose linkMans is-ssh@1.3.3
+589 verbose rebuildBundles is-ssh@1.3.3
+590 info install is-ssh@1.3.3
+591 info postinstall is-ssh@1.3.3
+592 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/is-stream
+593 info build /home/vagrant/data/movie-analyst-ui/node_modules/is-stream
+594 info preinstall is-stream@1.1.0
+595 verbose linkStuff [ false,
+595 verbose linkStuff   false,
+595 verbose linkStuff   false,
+595 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+596 info linkStuff is-stream@1.1.0
+597 verbose linkBins is-stream@1.1.0
+598 verbose linkMans is-stream@1.1.0
+599 verbose rebuildBundles is-stream@1.1.0
+600 info install is-stream@1.1.0
+601 info postinstall is-stream@1.1.0
+602 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/isarray
+603 info build /home/vagrant/data/movie-analyst-ui/node_modules/isarray
+604 info preinstall isarray@1.0.0
+605 verbose linkStuff [ false,
+605 verbose linkStuff   false,
+605 verbose linkStuff   false,
+605 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+606 info linkStuff isarray@1.0.0
+607 verbose linkBins isarray@1.0.0
+608 verbose linkMans isarray@1.0.0
+609 verbose rebuildBundles isarray@1.0.0
+610 info install isarray@1.0.0
+611 info postinstall isarray@1.0.0
+612 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/iterate-object
+613 info build /home/vagrant/data/movie-analyst-ui/node_modules/iterate-object
+614 info preinstall iterate-object@1.3.4
+615 verbose linkStuff [ false,
+615 verbose linkStuff   false,
+615 verbose linkStuff   false,
+615 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+616 info linkStuff iterate-object@1.3.4
+617 verbose linkBins iterate-object@1.3.4
+618 verbose linkMans iterate-object@1.3.4
+619 verbose rebuildBundles iterate-object@1.3.4
+620 info install iterate-object@1.3.4
+621 info postinstall iterate-object@1.3.4
+622 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/limit-it
+623 info build /home/vagrant/data/movie-analyst-ui/node_modules/limit-it
+624 info preinstall limit-it@3.2.10
+625 verbose linkStuff [ false,
+625 verbose linkStuff   false,
+625 verbose linkStuff   false,
+625 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+626 info linkStuff limit-it@3.2.10
+627 verbose linkBins limit-it@3.2.10
+628 verbose linkMans limit-it@3.2.10
+629 verbose rebuildBundles limit-it@3.2.10
+630 info install limit-it@3.2.10
+631 info postinstall limit-it@3.2.10
+632 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/lowercase-keys
+633 info build /home/vagrant/data/movie-analyst-ui/node_modules/lowercase-keys
+634 info preinstall lowercase-keys@1.0.1
+635 verbose linkStuff [ false,
+635 verbose linkStuff   false,
+635 verbose linkStuff   false,
+635 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+636 info linkStuff lowercase-keys@1.0.1
+637 verbose linkBins lowercase-keys@1.0.1
+638 verbose linkMans lowercase-keys@1.0.1
+639 verbose rebuildBundles lowercase-keys@1.0.1
+640 info install lowercase-keys@1.0.1
+641 info postinstall lowercase-keys@1.0.1
+642 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/media-typer
+643 info build /home/vagrant/data/movie-analyst-ui/node_modules/media-typer
+644 info preinstall media-typer@0.3.0
+645 verbose linkStuff [ false,
+645 verbose linkStuff   false,
+645 verbose linkStuff   false,
+645 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+646 info linkStuff media-typer@0.3.0
+647 verbose linkBins media-typer@0.3.0
+648 verbose linkMans media-typer@0.3.0
+649 verbose rebuildBundles media-typer@0.3.0
+650 info install media-typer@0.3.0
+651 info postinstall media-typer@0.3.0
+652 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/merge-descriptors
+653 info build /home/vagrant/data/movie-analyst-ui/node_modules/merge-descriptors
+654 info preinstall merge-descriptors@1.0.1
+655 verbose linkStuff [ false,
+655 verbose linkStuff   false,
+655 verbose linkStuff   false,
+655 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+656 info linkStuff merge-descriptors@1.0.1
+657 verbose linkBins merge-descriptors@1.0.1
+658 verbose linkMans merge-descriptors@1.0.1
+659 verbose rebuildBundles merge-descriptors@1.0.1
+660 info install merge-descriptors@1.0.1
+661 info postinstall merge-descriptors@1.0.1
+662 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/methods
+663 info build /home/vagrant/data/movie-analyst-ui/node_modules/methods
+664 info preinstall methods@1.1.2
+665 verbose linkStuff [ false,
+665 verbose linkStuff   false,
+665 verbose linkStuff   false,
+665 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+666 info linkStuff methods@1.1.2
+667 verbose linkBins methods@1.1.2
+668 verbose linkMans methods@1.1.2
+669 verbose rebuildBundles methods@1.1.2
+670 info install methods@1.1.2
+671 info postinstall methods@1.1.2
+672 verbose rebuild bundle /home/vagrant/data/movie-analyst-ui/node_modules/mime
+673 info build /home/vagrant/data/movie-analyst-ui/node_modules/mime
+674 info preinstall mime@1.6.0
+675 verbose linkStuff [ false,
+675 verbose linkStuff   false,
+675 verbose linkStuff   false,
+675 verbose linkStuff   '/home/vagrant/data/movie-analyst-ui/node_modules' ]
+676 info linkStuff mime@1.6.0
+677 verbose linkBins mime@1.6.0
+678 verbose link bins [ { mime: 'cli.js' },
+678 verbose link bins   '/home/vagrant/data/movie-analyst-ui/node_modules/.bin',
+678 verbose link bins   false ]
+679 verbose linkMans mime@1.6.0
+680 verbose rebuildBundles mime@1.6.0
+681 error Error: UNKNOWN, symlink '../mime/cli.js'
+682 error If you need help, you may report this log at:
+682 error     <http://github.com/isaacs/npm/issues>
+682 error or email it to:
+682 error     <npm-@googlegroups.com>
+683 error System Linux 3.13.0-170-generic
+684 error command "/usr/bin/nodejs" "/usr/bin/npm" "install"
+685 error cwd /home/vagrant/data/movie-analyst-ui
+686 error node -v v0.10.25
+687 error npm -v 1.3.10
+688 error path ../mime/cli.js
+689 error code UNKNOWN
+690 error errno -1
+691 verbose exit [ -1, true ]
