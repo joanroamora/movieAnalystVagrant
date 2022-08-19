@@ -17,5 +17,5 @@ wait
 sudo npm install ejs@2.5.7
 export BACK_HOST="10.0.1.1"
 echo $BACK_HOST
-nodejs server.js
+
 

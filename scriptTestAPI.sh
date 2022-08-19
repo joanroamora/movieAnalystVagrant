@@ -19,4 +19,3 @@ wait
 sudo npm install mysql@2.14.1
 export PORT="3000"
 echo $PORT
-nodejs server.js
