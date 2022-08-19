@@ -16,7 +16,7 @@ It is necessary to have a virtual environment management software. I recommend V
 It is the software that I will use in this development so it is recommended that you use it.
 
 ## 2. OPERATING SYSTEM VIRTUAL IMAGE
-For this project we will use a 64-bit Linux Trusty image. This image will take some time for the first download from the official Vagrant Boxes source, depending on your bandwidth. However, once 
+For this project we will use a ***64-bit Linux Trusty image***. This image will take some time for the first download from the official Vagrant Boxes source, depending on your bandwidth. However, once 
 downloaded you will not have to download it again as long as you keep the Virtual Box image back up.
 If you want to know what virtual images you have available locally, please run this command from your preferred console:
 
@@ -74,3 +74,6 @@ However if you wish, you can also add this line of code at the end of each of th
 ## 7. TEST DE APP
 
 Determine the IP address of the BACK_HOST and through port 3030 point it to the frontend. Navigate through the application and then connect to one of the hyperlinks that will take you to the backend. 
+It is possible to encounter conflicts within the execution of the application, which is why it is important to always keep clear which and how many virtual machines we have deployed. For this, you can use the following commands:
+
+*vagrant global-status*
